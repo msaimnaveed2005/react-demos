@@ -4,14 +4,11 @@ import Greek from "./components/Greek";
 import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
+import WelcomeMessage from "./components/WelcomeMessage";
 function App(params)
 {
   return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
+    <WelcomeMessage />
   );
 }
 export default App;
