@@ -1,14 +1,13 @@
-import ProductList from "./components/ProductList"
-import UserList from "./components/UserList"
+import Person from "./components/Person";
+import Product from "./components/Product";
 
 const App = () => {
-  const numbers=[1,2,3,4,5]
+  return (
+    <>
+      <Person name="Saim" age={21} />
+      <Product name="Iphone 20" price="$1900" />
+    </>
+  );
+};
 
-
-  return <main>
-    <UserList/>
-    <ProductList/>
-  </main>
-}
-
-export default App
+export default App;
