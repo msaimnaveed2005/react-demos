@@ -1,11 +1,13 @@
-import Person from "./components/Person";
-import Product from "./components/Product";
+import Greeting from "./components/Greeting";
+import UserStatus from "./components/UserStatus";
+import Weather from "./components/weather";
 
 const App = () => {
   return (
     <>
-      <Person name="Saim" age={21} />
-      <Product name="Iphone 20" price="$1900" />
+      <Weather temperature={13} />
+      <UserStatus loggedin={true} isAdmin={true} />
+      <Greeting timeOfDay={false} />
     </>
   );
 };
