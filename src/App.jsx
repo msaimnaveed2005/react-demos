@@ -7,7 +7,7 @@ const App = () => {
     <>
       <Weather temperature={13} />
       <UserStatus loggedin={true} isAdmin={true} />
-      <Greeting timeOfDay={false} />
+      <Greeting timeOfDay={"good morning"} />
     </>
   );
 };
